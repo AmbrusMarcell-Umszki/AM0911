@@ -59,13 +59,13 @@
 
         <section>
             <h2 id="2">Galéria</h2>
-            <div class="row row-cols-md 2 row-cols-lg-3  g-4">
-                <img src="agazati/pics/s1.jpg" alt="" class="img-thumbnail">
-                <img src="agazati/pics/s2.jpg" alt="" class="img-thumbnail">
-                <img src="agazati/pics/s3.jpg" alt="" class="img-thumbnail">
-                <img src="agazati/pics/s4.jpg" alt="" class="img-thumbnail">
-                <img src="agazati/pics/s5.jpg" alt="" class="img-thumbnail">
-                <img src="agazati/pics/s6.jpg"alt="" class="img-thumbnail">
+            <div class="row row-cols-md 2 row-cols-lg-3 row-cols-1  g-4">
+                <div class="col"><img src="agazati/pics/s1.jpg" alt="" class="img-thumbnail"></div>
+                <div class="col"><img src="agazati/pics/s2.jpg" alt="" class="img-thumbnail"></div>
+                <div class="col"><img src="agazati/pics/s3.jpg" alt="" class="img-thumbnail"></div>
+                <div class="col"><img src="agazati/pics/s4.jpg" alt="" class="img-thumbnail"></div>
+                <div class="col"><img src="agazati/pics/s5.jpg" alt="" class="img-thumbnail"></div>
+                <div class="col"><img src="agazati/pics/s6.jpg" alt="" class="img-thumbnail"></div>
             </div>
         </section>
 
@@ -73,46 +73,75 @@
 
 
         <section id="3">
-            <h2>Egy igazi klasszikus</h2>
-
-            Beszélve a híres magyar süteményekről, nem hagyhatjuk ki a dobostortát. Ez a sütemény egy igazi mestermű,
-            amely tökéletes harmóniát teremt az ízek és a textúrák között.
-            A dobostorta ötlete egy 19. századi cukrászmester, Dobos C. József fejéből pattant ki, aki ezzel a
-            süteménnyel forradalmasította az akkori cukrászatot. A torta hét réteg piskótából áll, amelyeket
-            csokoládékrémmel töltöttek meg, és a tetejét karamellel vonják be.
-            A dobostorta nem csak ízében, hanem történetében is egyedülálló, hiszen azóta is töretlen népszerűségnek
-            örvend.
-
-            <h2>A gazdag ízvilágú magyar desszert</h2>
-
-            A somlói galuska egy igazán egyedülálló és összetett magyar desszert, amely a magyar cukrászat egyik
-            csillaga. Ez a sütemény egy gazdag és textúrált édesség, amely több rétegből áll, ötvözve a piskótát,
-            csokoládéöntetet, és gyakran rumos meggyet vagy rumaromát.
-            A somlói galuska története az 1950-es évekre nyúlik vissza, amikor is Jedermann Ilona, a Gundel étterem
-            cukrásza alkotta meg ezt a különlegességet. A desszert népszerűsége azóta is töretlen, és ma már a magyar
-            gasztronómia ikonikus darabjának számít.
+            <div class="row row-cols-md-2 row-cols-1">
+                <div class="col">
+                    <h2>Egy igazi klasszikus</h2>
+                    <p>
+                        Beszélve a híres magyar süteményekről, nem hagyhatjuk ki a dobostortát. Ez a sütemény egy igazi
+                        mestermű,
+                        amely tökéletes harmóniát teremt az ízek és a textúrák között.
+                        A dobostorta ötlete egy 19. századi cukrászmester, Dobos C. József fejéből pattant ki, aki ezzel
+                        a
+                        süteménnyel forradalmasította az akkori cukrászatot. A torta hét réteg piskótából áll, amelyeket
+                        csokoládékrémmel töltöttek meg, és a tetejét karamellel vonják be.
+                        A dobostorta nem csak ízében, hanem történetében is egyedülálló, hiszen azóta is töretlen
+                        népszerűségnek
+                        örvend.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>A gazdag ízvilágú magyar desszert</h2>
+                    <p>
+                        A somlói galuska egy igazán egyedülálló és összetett magyar desszert, amely a magyar cukrászat
+                        egyik
+                        csillaga. Ez a sütemény egy gazdag és textúrált édesség, amely több rétegből áll, ötvözve a
+                        piskótát,
+                        csokoládéöntetet, és gyakran rumos meggyet vagy rumaromát.
+                        A somlói galuska története az 1950-es évekre nyúlik vissza, amikor is Jedermann Ilona, a Gundel
+                        étterem
+                        cukrásza alkotta meg ezt a különlegességet. A desszert népszerűsége azóta is töretlen, és ma már
+                        a magyar
+                        gasztronómia ikonikus darabjának számít.
+                    </p>
+                </div>
+            </div>
         </section>
 
 
         <section id="4">
 
-            <h2>A piskótatekercs receptje</h2>
+            <h2><img src="agazati/pics/tekercs.jpg" class="ferde" alt=""> A piskótatekercs receptje</h2>
 
             <h3>Hozzávalók</h3> <input type="number" value="1" min="1" max="9" onclick="recept()" id="letszam">
             tekercshez
 
-            <span id="tojas">6</span> db tojás
-            <span id="liszt">12</span> ek liszt
-            <span id="cukor">8</span> ek kristálycukor
+            <ol>
+                <li><span id="tojas">6</span> db tojás</li>
+                <li><span id="liszt">12</span> ek liszt</li>
+                <li><span id="cukor">8</span> ek kristálycukor</li>
+            </ol>
+            <table class="table table-striped">
 
-            Édesség neve
-            Ár (Ft/szelet)
-            Dobostorta
-            1780
-            Eszterházy torta
-            1980
-            Mikszáth szelet
-            1470
+
+
+                <tr>
+                    <td>Édesség neve</td>
+                    <td>Ár (Ft/szelet)</td>
+                </tr>
+                <tr>
+                    <td>Dobostorta</td>
+                    <td>1780</td>
+                </tr>
+                <tr>
+                    <td>Eszterházy torta</td>
+                    <td>1980</td>
+                </tr>
+                <tr>
+                    <td>Mikszáth szelet</td>
+                    <td>1470</td>
+                </tr>
+
+            </table>
 
             <h3>Elkészítése</h3>
 
